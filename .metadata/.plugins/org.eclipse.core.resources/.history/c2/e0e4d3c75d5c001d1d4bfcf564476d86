@@ -1,0 +1,13 @@
+package executavel;
+
+import javax.swing.JOptionPane;
+
+public class application {
+
+	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "Sai daqui meu");
+		
+	}
+
+}

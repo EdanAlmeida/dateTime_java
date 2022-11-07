@@ -1,0 +1,26 @@
+package executavel;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import javax.swing.JOptionPane;
+
+public class application {
+
+	public static void main(String[] args) {
+		
+		Date date = new Date();
+		
+		/*JOptionPane.showMessageDialog(null, date);
+		JOptionPane.showMessageDialog(null, date.getTime()); //data atual em milisegundos
+		JOptionPane.showMessageDialog(null, date.getHours()); //se usa mais o calendar() agora*/
+	
+		/*------------------------------- Simple Date Format -------------------------------*/
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd"); /*salvar no DB*/
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy"); /*mostrar na tela*/
+		
+		System.out.println(simpleDateFormat.format(date));
+		
+	}
+
+}

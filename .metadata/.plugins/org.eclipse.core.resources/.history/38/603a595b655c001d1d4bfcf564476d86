@@ -1,0 +1,15 @@
+package executavel;
+
+import java.util.Calendar;
+
+public class CalendarJava {
+
+	public static void main(String[] args) {
+		
+		Calendar calendar = Calendar.getInstance();
+		
+		System.out.println("Calendar em milisegundos:" + calendar.getTimeInMillis());
+
+	}
+
+}
